@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    
+    box-sizing: border-box;
+    text-decoration: none !important;
+    
+}
+.text-white{
+    color: white !important;
+}
+.nav{
+    display: inline-block   ;
+}
+.nav>li>a{
+    color: white;
+}
+.nav li a {
+    color: white;
+    text-decoration: none   ;
+    padding: 0 20px;
+    display: inline-block   ;
+    text-transform: uppercase;
+
+}
+.header{
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.search{
+    float: right;
+}
+.search > i {
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+}
+.search > i:hover{
+    background-color: tomato;
+}
+
+
+.subnav{
+    display: none;
+}
+.nav li:hover .subnav{
+    display: block;
+}
+.navmore{
+    position: relative;
+    display: block;
+}
+.navmore .subnav{
+    position: absolute;
+    background-color: black;
+}
+
+
+.nav li {
+    display: inline-block;
+    line-height: 50px;
+    
+}       
+.nav >li:hover >a{
+    background-color:#fff;
+    color: black;
+}
+.nav .subnav li:hover a ,
+.nav .subnav li:hover {
+    background-color:white;
+    color: black;
+    
+}
+.subnav li {
+    width: 100%;
+}
+
+
+.slider{
+   /* position: relative; */
+    margin-top: 50px;
+    padding-top: 50%;
+    background: url(/sources/img/chicago.jpg) top center  / cover no-repeat;
+
+}
+.text-content{
+    position: absolute;
+}
+.slider .text-content{
+    color: white;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    
+}
+#content-heading-band{
+    text-align: center;
+    font-weight: 300px;
+    letter-spacing: 4px;
+}
+#content-heading-tour{
+    text-align: center;
+    font-weight: 300px;
+    letter-spacing: 4px;
+}
+#content-heading-contact{
+    text-align: center;
+    font-weight: 300px;
+    letter-spacing: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content-prah{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+    opacity: 0.8;
+    font-style:italic;
+}
+.content-text{
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 30px;
+    line-height: 1.6rem;
+    font-family: serif;
+}
+
+.content-section {
+    width: 800px  ;
+    padding: 70px 0;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#content-section-band {
+    width: 800px  ;
+    padding: 70px 0;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+    #content-section-contact {
+        width: 800px  ;
+        padding: 70px 0;
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.member-list{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 1;
+    
+}
+.content .member-list p {
+    text-align: center;
+    margin-bottom: 15px;
+   
+}
+.content .member-list img {
+    border-radius: 5px;
+    width: 154px;
+}
+/* tour-section */
+
+#tour-section{
+    background-color: black;
+}
+.ticket-list{
+    margin-top: 50px;
+}
+.ticket-list li {
+    list-style: none;
+    color: #000;
+    border-bottom: 1px solid    ;
+    background-color: white;
+    padding: 10px 15px  ;
+}
+.ticket-list li .sold-out {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 6px;
+    margin-left: 10px;
+}
+.quantity{
+    float: right;
+    width: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: red;
+    border-radius: 50%;
+}
+.place-item{
+    margin-top: 50px;
+}
+.place-img{
+    width: 100%;
+    display: block;
+}
+.place-img:hover{
+    opacity: 0.6;
+}
+
+
+
+.place-body{
+    background-color: #fff;
+    color: black;
+    display: inline-block;
+    
+}
+.place{
+    display: flex;
+    justify-content: space-evenly;
+}
+.place-time{
+    text-align: center;
+    margin-bottom: 10px;
+    opacity: 0.6;
+}
+.place-list{
+    margin: 0 10px;
+}
+.place-heading{
+    margin: 20px auto;
+    text-align: center;
+}
+.place-decription{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.form-control{
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+/* footer-section */    
